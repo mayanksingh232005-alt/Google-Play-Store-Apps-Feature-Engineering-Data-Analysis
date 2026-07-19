@@ -1,6 +1,6 @@
-# 📱 Google Play Store Apps: End-to-End Data Science Project
+#  Google Play Store Apps: End-to-End Data Science Project
 
-## 📌 Project Overview
+##  Project Overview
 
 This project demonstrates a complete **End-to-End Data Science Workflow** using the Google Play Store Apps dataset. It covers every stage of a real-world data science project—from raw data preprocessing to exploratory data analysis (EDA), feature engineering, statistical analysis, and machine learning model development.
 
@@ -8,10 +8,10 @@ The objective is to extract meaningful business insights while demonstrating pra
 
 ---
 
-# 📂 Repository Structure
+#  Repository Structure
 
 ```
-📁 Google-Play-Store-End-to-End-Data-Science
+ Google-Play-Store-End-to-End-Data-Science
 
 │── README.md
 │── googleplaystore.csv                 # Raw Dataset
@@ -23,7 +23,7 @@ The objective is to extract meaningful business insights while demonstrating pra
 
 ---
 
-# 🎯 Project Objectives
+#  Project Objectives
 
 - Understand the Google Play Store dataset
 - Perform Data Cleaning and Preprocessing
@@ -38,7 +38,7 @@ The objective is to extract meaningful business insights while demonstrating pra
 
 ---
 
-# 🛠️ Tech Stack
+#  Tech Stack
 
 ### Programming Language
 - Python
@@ -54,7 +54,7 @@ The objective is to extract meaningful business insights while demonstrating pra
 
 ---
 
-# 📊 Project Workflow
+#  Project Workflow
 
 ### Step 1 — Raw Dataset
 
@@ -132,7 +132,7 @@ Evaluation Metrics:
 
 ---
 
-# 📁 Files Description
+#  Files Description
 
 | File | Description |
 |------|-------------|
@@ -143,7 +143,7 @@ Evaluation Metrics:
 
 ---
 
-# 🚀 Key Skills Demonstrated
+#  Key Skills Demonstrated
 
 - Data Cleaning
 - Data Preprocessing
@@ -157,7 +157,7 @@ Evaluation Metrics:
 
 ---
 
-# 📈 Future Improvements
+#  Future Improvements
 
 - Hyperparameter Optimization
 - Streamlit Web Application
@@ -166,7 +166,7 @@ Evaluation Metrics:
 
 ---
 
-# 👨‍💻 Author
+#  Author
 
 **Mayank Singh**
 
@@ -174,4 +174,4 @@ Aspiring Data Analyst | Data Science & Machine Learning Enthusiast
 
 ---
 
-## ⭐ If you found this project useful, consider giving it a Star!
+##  If you found this project useful, consider giving it a Star!
