@@ -1,26 +1,50 @@
-#  Google Play Store Apps: End-to-End Data Science Project
+# 📱 Google Play Store Apps: End-to-End Data Science Project
 
-##  Project Overview
+## 📌 Project Overview
 
-This project presents a complete end-to-end data science workflow using the Google Play Store Apps dataset. It includes data cleaning, feature engineering, exploratory data analysis (EDA), statistical analysis, data visualization, and machine learning to extract insights and build predictive models.
+This project demonstrates a complete **End-to-End Data Science Workflow** using the Google Play Store Apps dataset. It covers every stage of a real-world data science project—from raw data preprocessing to exploratory data analysis (EDA), feature engineering, statistical analysis, and machine learning model development.
+
+The objective is to extract meaningful business insights while demonstrating practical skills in **Python, Pandas, NumPy, Matplotlib, Seaborn, and Scikit-learn**.
 
 ---
 
-## Objectives
+# 📂 Repository Structure
 
-- Perform data cleaning and preprocessing
-- Handle missing values and duplicate records
-- Apply feature engineering techniques
-- Perform exploratory data analysis (EDA)
+```
+📁 Google-Play-Store-End-to-End-Data-Science
+
+│── README.md
+│── googleplaystore.csv                 # Raw Dataset
+│── googleplaystore_cleaned.csv         # Cleaned Dataset
+│── 01_Data_Cleaning_and_EDA.ipynb      # Data Cleaning, Feature Engineering & EDA
+│── 02_Machine_Learning_Model.ipynb     # Model Building & Evaluation
+│── requirements.txt
+```
+
+---
+
+# 🎯 Project Objectives
+
+- Understand the Google Play Store dataset
+- Perform Data Cleaning and Preprocessing
+- Handle Missing Values and Duplicate Records
+- Perform Feature Engineering
+- Explore the data through EDA
 - Create meaningful visualizations
-- Extract business insights
-- Build and evaluate machine learning models
+- Generate business insights
+- Build Machine Learning models
+- Compare model performance
+- Save the best performing model
 
 ---
 
-##  Tech Stack
+# 🛠️ Tech Stack
 
+### Programming Language
 - Python
+
+### Libraries Used
+
 - Pandas
 - NumPy
 - Matplotlib
@@ -30,41 +54,23 @@ This project presents a complete end-to-end data science workflow using the Goog
 
 ---
 
-##  Project Workflow
+# 📊 Project Workflow
 
-1. Data Collection
-2. Data Cleaning
-3. Data Preprocessing
-4. Feature Engineering
-5. Exploratory Data Analysis (EDA)
-6. Statistical Analysis
-7. Data Visualization
-8. Machine Learning Model Building
-9. Model Evaluation
-10. Hyperparameter Tuning
-11. Model Saving
+### Step 1 — Raw Dataset
 
----
+- Loaded the original Google Play Store dataset (`googleplaystore.csv`)
 
-##  Exploratory Data Analysis
+### Step 2 — Data Cleaning
 
-The project includes:
+- Missing Value Treatment
+- Duplicate Removal
+- Data Type Conversion
+- Invalid Data Handling
+- Data Formatting
 
-- Data Cleaning
-- Missing Value Analysis
-- Duplicate Handling
-- Outlier Detection
-- Correlation Analysis
-- Univariate Analysis
-- Bivariate Analysis
-- Multivariate Analysis
-- Business Insights
+### Step 3 — Feature Engineering
 
----
-
-##  Feature Engineering
-
-Features created include:
+Created new features including:
 
 - App Age
 - Size Category
@@ -74,46 +80,70 @@ Features created include:
 - Reviews per Install
 - Rating Category
 
+The cleaned dataset is saved as:
+
+```
+googleplaystore_cleaned.csv
+```
+
 ---
 
-##  Machine Learning
+### Step 4 — Exploratory Data Analysis (EDA)
 
-Regression models used:
+Performed:
+
+- Univariate Analysis
+- Bivariate Analysis
+- Multivariate Analysis
+- Correlation Analysis
+- Outlier Detection
+- Distribution Analysis
+- Category-wise Analysis
+- Business Insights
+
+Visualizations were created using:
+
+- Matplotlib
+- Seaborn
+
+---
+
+### Step 5 — Machine Learning
+
+The cleaned dataset is used for model building.
+
+Models Implemented:
 
 - Linear Regression
 - Decision Tree Regressor
 - Random Forest Regressor
 - Gradient Boosting Regressor
 
+---
+
+### Step 6 — Model Evaluation
+
 Evaluation Metrics:
 
-- MAE
-- RMSE
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
 - R² Score
 - Cross Validation
 
 ---
 
-##  Dataset
+# 📁 Files Description
 
-Dataset: **Google Play Store Apps Dataset**
-
-The dataset contains information about Android applications, including:
-
-- App Name
-- Category
-- Rating
-- Reviews
-- Size
-- Installs
-- Price
-- Genres
-- Content Rating
-- Android Version
+| File | Description |
+|------|-------------|
+| googleplaystore.csv | Original Raw Dataset |
+| googleplaystore_cleaned.csv | Cleaned Dataset after preprocessing |
+| 01_Data_Cleaning_and_EDA.ipynb | Data Cleaning, Feature Engineering, Visualization & EDA |
+| 02_Machine_Learning_Model.ipynb | Model Training, Evaluation & Comparison |
 
 ---
 
-##  Key Skills Demonstrated
+# 🚀 Key Skills Demonstrated
 
 - Data Cleaning
 - Data Preprocessing
@@ -123,18 +153,25 @@ The dataset contains information about Android applications, including:
 - Data Visualization
 - Machine Learning
 - Model Evaluation
+- Business Insight Generation
 
 ---
 
-##  Future Improvements
+# 📈 Future Improvements
 
-- Interactive Dashboard using Power BI / Tableau
+- Hyperparameter Optimization
 - Streamlit Web Application
+- Interactive Dashboard (Power BI/Tableau)
 - Model Deployment
-- Advanced Feature Engineering
 
 ---
 
-##  Author
+# 👨‍💻 Author
 
 **Mayank Singh**
+
+Aspiring Data Analyst | Data Science & Machine Learning Enthusiast
+
+---
+
+## ⭐ If you found this project useful, consider giving it a Star!
