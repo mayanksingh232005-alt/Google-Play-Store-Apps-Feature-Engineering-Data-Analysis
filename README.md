@@ -62,7 +62,7 @@ The project includes:
 
 ---
 
-## ⚙️ Feature Engineering
+##  Feature Engineering
 
 Features created include:
 
@@ -76,7 +76,7 @@ Features created include:
 
 ---
 
-## 🤖 Machine Learning
+##  Machine Learning
 
 Regression models used:
 
