@@ -137,4 +137,4 @@ The dataset contains information about Android applications, including:
 
 ##  Author
 
-**Mayank Singhe**
+**Mayank Singh**
