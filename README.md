@@ -1,177 +1,178 @@
-#  Google Play Store Apps: End-to-End Data Science Project
+# 📱 Google Play Store Apps — Feature Engineering & Data Analysis
 
-##  Project Overview
+## 📌 Project Overview
 
-This project demonstrates a complete **End-to-End Data Science Workflow** using the Google Play Store Apps dataset. It covers every stage of a real-world data science project—from raw data preprocessing to exploratory data analysis (EDA), feature engineering, statistical analysis, and machine learning model development.
+This project focuses on analyzing and transforming Google Play Store application data to extract meaningful patterns and create useful features for data analysis and future machine learning applications.
 
-The objective is to extract meaningful business insights while demonstrating practical skills in **Python, Pandas, NumPy, Matplotlib, Seaborn, and Scikit-learn**.
+The project follows an end-to-end data preparation workflow:
 
----
+**Raw Data → Data Cleaning → EDA → Feature Engineering → Feature Selection → Final Dataset → Business Insights**
 
-#  Repository Structure
-
-```
- Google-Play-Store-End-to-End-Data-Science
-
-│── README.md
-│── googleplaystore.csv                 # Raw Dataset
-│── googleplaystore_cleaned.csv         # Cleaned Dataset
-│── 01_Data_Cleaning_and_EDA.ipynb      # Data Cleaning, Feature Engineering & EDA
-│── 02_Machine_Learning_Model.ipynb     # Model Building & Evaluation
-│── requirements.txt
-```
+The primary focus of this project is **Feature Engineering**, where raw and inconsistent data is transformed into meaningful numerical and categorical features that can be used for deeper analysis and machine learning models.
 
 ---
 
-#  Project Objectives
+## 🎯 Problem Statement
 
-- Understand the Google Play Store dataset
-- Perform Data Cleaning and Preprocessing
-- Handle Missing Values and Duplicate Records
-- Perform Feature Engineering
-- Explore the data through EDA
-- Create meaningful visualizations
-- Generate business insights
-- Build Machine Learning models
-- Compare model performance
-- Save the best performing model
+The Google Play Store contains thousands of applications across different categories, genres, pricing models, and user-rating levels.
 
----
+However, the raw dataset contains several challenges such as:
 
-#  Tech Stack
+- Missing values
+- Duplicate records
+- Inconsistent data formats
+- Numerical values stored as text
+- Skewed distributions
+- Categorical variables
+- Date-based information
+- Different units and representations
 
-### Programming Language
-- Python
-
-### Libraries Used
-
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Joblib
+The objective of this project is to clean, analyze, and transform the raw dataset into a structured and meaningful dataset through effective **feature engineering techniques**.
 
 ---
 
-#  Project Workflow
+## 🎯 Objectives
 
-### Step 1 — Raw Dataset
-
-- Loaded the original Google Play Store dataset (`googleplaystore.csv`)
-
-### Step 2 — Data Cleaning
-
-- Missing Value Treatment
-- Duplicate Removal
-- Data Type Conversion
-- Invalid Data Handling
-- Data Formatting
-
-### Step 3 — Feature Engineering
-
-Created new features including:
-
-- App Age
-- Size Category
-- Install Category
-- Premium App Indicator
-- Estimated Revenue
-- Reviews per Install
-- Rating Category
-
-The cleaned dataset is saved as:
-
-```
-googleplaystore_cleaned.csv
-```
+- Understand the Google Play Store dataset.
+- Perform data cleaning and preprocessing.
+- Conduct Exploratory Data Analysis (EDA).
+- Identify important patterns and relationships.
+- Transform raw features into useful numerical features.
+- Create new meaningful features from existing data.
+- Handle skewed numerical features using transformations.
+- Perform categorical feature engineering.
+- Perform feature selection.
+- Compare features before and after transformation.
+- Generate actionable business insights.
+- Prepare a high-quality dataset for future machine learning applications.
 
 ---
 
-### Step 4 — Exploratory Data Analysis (EDA)
+## 🛠️ Tools & Libraries Used
 
-Performed:
-
-- Univariate Analysis
-- Bivariate Analysis
-- Multivariate Analysis
-- Correlation Analysis
-- Outlier Detection
-- Distribution Analysis
-- Category-wise Analysis
-- Business Insights
-
-Visualizations were created using:
-
-- Matplotlib
-- Seaborn
+- **Python**
+- **Pandas**
+- **NumPy**
+- **Matplotlib**
+- **Seaborn**
+- **Jupyter Notebook / Google Colab**
 
 ---
 
-### Step 5 — Machine Learning
+## 📊 Dataset
 
-The cleaned dataset is used for model building.
+The dataset contains information about applications available on the Google Play Store.
 
-Models Implemented:
+### Important Features
 
-- Linear Regression
-- Decision Tree Regressor
-- Random Forest Regressor
-- Gradient Boosting Regressor
+Some of the major attributes include:
 
----
-
-### Step 6 — Model Evaluation
-
-Evaluation Metrics:
-
-- Mean Absolute Error (MAE)
-- Root Mean Squared Error (RMSE)
-- R² Score
-- Cross Validation
+- `App` — Application name
+- `Category` — Application category
+- `Rating` — Average user rating
+- `Reviews` — Number of user reviews
+- `Size` — Application size
+- `Installs` — Number of installations
+- `Type` — Free or Paid application
+- `Price` — Application price
+- `Content Rating` — Target audience
+- `Genres` — Application genre
+- `Last Updated` — Date of the latest update
 
 ---
 
-#  Files Description
+# 🔄 Project Workflow
 
-| File | Description |
-|------|-------------|
-| googleplaystore.csv | Original Raw Dataset |
-| googleplaystore_cleaned.csv | Cleaned Dataset after preprocessing |
-| 01_Data_Cleaning_and_EDA.ipynb | Data Cleaning, Feature Engineering, Visualization & EDA |
-| 02_Machine_Learning_Model.ipynb | Model Training, Evaluation & Comparison |
+## 1. Data Loading & Understanding
 
----
-
-#  Key Skills Demonstrated
-
-- Data Cleaning
-- Data Preprocessing
-- Feature Engineering
-- Exploratory Data Analysis (EDA)
-- Statistical Analysis
-- Data Visualization
-- Machine Learning
-- Model Evaluation
-- Business Insight Generation
+- Import required libraries
+- Load the dataset
+- Inspect dataset structure
+- Check shape and dimensions
+- Analyze data types
+- Generate descriptive statistics
 
 ---
 
-#  Future Improvements
+## 2. Data Cleaning
 
-- Hyperparameter Optimization
-- Streamlit Web Application
-- Interactive Dashboard (Power BI/Tableau)
-- Model Deployment
+The raw dataset was cleaned before performing feature engineering.
+
+### Cleaning operations include:
+
+- Missing value detection
+- Missing value treatment
+- Duplicate detection
+- Duplicate removal
+- Invalid value identification
+- Data type correction
+- Inconsistent value handling
+- Outlier analysis
 
 ---
 
-#  Author
+## 3. Exploratory Data Analysis (EDA)
 
-**Mayank Singh**
+EDA was performed to understand the underlying characteristics of the dataset.
 
-Aspiring Data Analyst | Data Science & Machine Learning Enthusiast
+### Analysis includes:
+
+- Univariate analysis
+- Numerical feature distributions
+- Categorical feature distributions
+- Rating analysis
+- Review analysis
+- Installation analysis
+- Price analysis
+- Category-wise analysis
+- Free vs Paid application analysis
+- Correlation analysis
+- Visualization of important patterns
+
+Various charts and statistical techniques were used to identify trends and relationships within the data.
 
 ---
 
-##  If you found this project useful, consider giving it a Star!
+# ⭐ 4. Feature Engineering
+
+Feature Engineering is the core component of this project.
+
+The objective is to convert raw variables into meaningful features that can provide better information for analysis and future machine learning models.
+
+### Feature Engineering Techniques
+
+### 🔹 Numerical Feature Conversion
+
+Raw numerical information stored in string formats is converted into appropriate numerical representations.
+
+Examples include:
+
+- Converting installation counts into numerical values
+- Converting review counts into numerical values
+- Converting application size into a consistent numerical unit
+- Converting price into numerical values
+
+---
+
+### 🔹 Date Feature Engineering
+
+The `Last Updated` feature can be transformed into useful date-based features such as:
+
+- Year
+- Month
+- Day
+- Update-related features
+- Application freshness
+
+These features help understand how application updates relate to other application characteristics.
+
+---
+
+### 🔹 Ratio-Based Features
+
+New features can be generated by combining existing numerical variables.
+
+For example:
+
+```text
+Reviews / Installs
